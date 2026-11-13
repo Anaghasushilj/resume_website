@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anagha Sushil J | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">Anagha.</div>
+
+        <nav>
+            <button onclick="showPage('home')">Home</button>
+            <button onclick="showPage('resume')">Resume</button>
+            <button onclick="showPage('biodata')">Bio-data</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME PAGE -->
+        <section id="home" class="page active">
+
+            <div class="home-container">
+
+                <div class="home-text">
+                    <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+                    <h1>Hello, I'm <span>Anagha Sushil J</span></h1>
+
+                    <h2>Computer Science Engineering Student</h2>
+
+                    <p class="intro">
+                        I am a passionate engineering student interested in
+                        technology, programming and web development.
+                        I enjoy learning new skills and exploring creative
+                        ideas through technology.
+                    </p>
+
+                    <div class="home-buttons">
+                        <button onclick="showPage('resume')" class="primary-btn">
+                            View Resume
+                        </button>
+
+                        <button onclick="showPage('biodata')" class="secondary-btn">
+                            View Bio-data
+                        </button>
+                    </div>
+                </div>
+
+                <div class="profile-container">
+                    <div class="profile-circle">
+                        <img src="profile.jpg" alt="Anagha Sushil J">
+                    </div>
+                    <p class="photo-caption">A little introduction about me</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- RESUME PAGE -->
+        <section id="resume" class="page">
+
+            <div class="section-heading">
+                <p>MY PROFILE</p>
+                <h1>My <span>Resume</span></h1>
+            </div>
+
+            <div class="resume-card">
+
+                <h2>Career Objective</h2>
+                <p>
+                    To build a successful career in the field of technology
+                    by improving my technical knowledge, developing practical
+                    skills and contributing to innovative projects.
+                </p>
+
+                <hr>
+
+                <h2><i class="fa-solid fa-graduation-cap"></i> Educational Qualification</h2>
+
+                <div class="education-item">
+                    <h3>Undergraduate - B.E.</h3>
+                    <p>Vivekananda College of Engineering and Technology, Puttur</p>
+                    <p>CGPA: 8.5</p>
+                </div>
+
+                <div class="education-item">
+                    <h3>Pre-University Course</h3>
+                    <p>Ambika Padavi Poorva Vidyalaya, Bappalige</p>
+                    <p>Year of Completion: 2024</p>
+                </div>
+
+                <div class="education-item">
+                    <h3>School</h3>
+                    <p>Jnana Ganga Central School, Bellare</p>
+                    <p>Year of Completion: 2022</p>
+                </div>
+
+                <hr>
+
+                <h2>Technical Skills</h2>
+
+                <div class="skills">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>C</span>
+                    <span>C++</span>
+                    <span>Java</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <hr>
+
+                <h2>Mini Project</h2>
+
+                <div class="project-box">
+                    <h3>Gesture Controlled Game Controller</h3>
+                    <p>
+                        A gesture-based game controller project that uses
+                        ESP32 and MPU6050 sensors to control a game through
+                        hand movements.
+                    </p>
+                </div>
+
+                <hr>
+
+                <h2>Online Profiles</h2>
+
+                <div class="profile-links">
+                    <p>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/anagha-sushil-j-0a44b632a"
+                           target="_blank">LinkedIn Profile</a>
+                    </p>
+
+                    <p>
+                        <i class="fa-brands fa-github"></i>
+                        <a href="https://github.com/Anaghasushilj"
+                           target="_blank">GitHub Profile</a>
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- BIO-DATA PAGE -->
+        <section id="biodata" class="page">
+
+            <div class="section-heading">
+                <p>PERSONAL INFORMATION</p>
+                <h1>My <span>Bio-data</span></h1>
+            </div>
+
+            <div class="biodata-card">
+
+                <div class="biodata-photo">
+                    <img src="profile.jpg" alt="Anagha Sushil J">
+                </div>
+
+                <h2>Anagha Sushil J</h2>
+                <p class="bio-subtitle">Personal Details</p>
+
+                <div class="bio-details">
+
+                    <div class="bio-row">
+                        <strong>Full Name</strong>
+                        <span>Anagha Sushil J</span>
+                    </div>
+
+                    <div class="bio-row">
+                        <strong>Date of Birth</strong>
+                        <span>08-06-2006</span>
+                    </div>
+
+                    <div class="bio-row">
+                        <strong>Gender</strong>
+                        <span>Female</span>
+                    </div>
+
+                    <div class="bio-row">
+                        <strong>Nationality</strong>
+                        <span>Indian</span>
+                    </div>
+
+                    <div class="bio-row">
+                        <strong>Languages Known</strong>
+                        <span>English, Kannada, Hindi, Tulu</span>
+                    </div>
+
+                    <div class="bio-row">
+                        <strong><i class="fa-solid fa-phone"></i> Phone Number</strong>
+                        <span>7411148622</span>
+                    </div>
+
+                    <div class="bio-row">
+                        <strong><i class="fa-solid fa-envelope"></i> Email Address</strong>
+                        <a href="mailto:anaghasushil4@gmail.com">
+                            anaghasushil4@gmail.com
+                        </a>
+                    </div>
+
+                    <div class="bio-row">
+                        <strong>LinkedIn Profile</strong>
+                        <a href="https://www.linkedin.com/in/anagha-sushil-j-0a44b632a"
+                           target="_blank">View LinkedIn</a>
+                    </div>
+
+                    <div class="bio-row">
+                        <strong>GitHub Profile</strong>
+                        <a href="https://github.com/Anaghasushilj"
+                           target="_blank">View GitHub</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Anagha Sushil J | Personal Portfolio</p>
+    </footer>
+
+
+    <!-- Page Navigation -->
+    <script>
+        function showPage(pageId) {
+
+            const pages = document.querySelectorAll(".page");
+
+            pages.forEach(function(page) {
+                page.classList.remove("active");
+            });
+
+            document.getElementById(pageId).classList.add("active");
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+    </script>
+
+</body>
+</html>
